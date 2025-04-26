@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-boilerplate-js",
+  "version": "1.0.0",
+  "description": "tailwindcss-boilerplate-for-javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.5"
+  }
+}
