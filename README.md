@@ -107,7 +107,7 @@ npm run build # Production mode (minify)
 
 ### Enable Auto Suggestion and Autocomplete Plugin
 
-Install **Tailwind CSS IntelliSense** extension in VS Code.
+Install **[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)** extension in VS Code.
 
 ### Plugin Configuration
 
@@ -134,7 +134,7 @@ Create `.vscode/settings.json` and add:
 }
 ```
 
-### Project Structure
+### Folder Structure
 
 ```
 tailwind-boilerplate/
